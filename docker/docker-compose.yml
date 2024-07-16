@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  opcua-client:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - opcua_network
+
+networks:
+  opcua_network:
