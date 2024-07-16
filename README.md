@@ -22,7 +22,7 @@ Configurar Variables de Entorno:
 
 Crea un archivo .env en el directorio raíz del proyecto basado en el archivo .env.example. Puedes copiar el archivo .env.example y modificar los valores según sea necesario.
 
-Copiar código
+-Copiar código
 cp .env.example .env
 Edita el archivo .env y proporciona los valores correctos para las URLs del servidor OPC UA y del OCB.
 
@@ -30,7 +30,7 @@ Ejecutar el Cliente:
 
 Para ejecutar el cliente OPC UA y comenzar a enviar datos a OCB, utiliza el siguiente comando:
 
-Copiar código
+-Copiar código
 node client-opcua-ocb.js
 
 
@@ -40,7 +40,7 @@ node client-opcua-ocb.js
 
 Para ejecutar tu aplicación con Docker Compose, abre una terminal, navega al directorio que contiene tu archivo docker-compose.yml y ejecuta el siguiente comando:
 
-Copiar código
+-Copiar código
 docker-compose up --build
 
 Tu archivo .env debe contener las variables de entorno necesarias:
