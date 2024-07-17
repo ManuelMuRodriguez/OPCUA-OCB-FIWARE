@@ -5,7 +5,7 @@ services:
     build: .
     env_file: .env
     volumes:
-      - .:/usr/src/app
+      - ./logs:/usr/src/app/logs
     networks:
       - opcua_network
 

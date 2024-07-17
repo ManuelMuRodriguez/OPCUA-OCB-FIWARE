@@ -18,6 +18,15 @@ const orionUrl = `${orionBaseUrl}/entities/${entityId}/attrs`;
 const fiwareService = process.env.FIWARE_SERVICE;
 const fiwareServicePath = process.env.FIWARE_SERVICE_PATH;
 
+// Ruta del archivo de log
+const logFilePath = path.join(__dirname, 'logs', 'opcua-client.log');
+
+// Función para escribir logs en un archivo
+function writeLog(level, message) {
+    const logMessage = `${new Date().toISOString()} - ${level.toUpperCase()} - ${message}\n`;
+    fs.appendFileSync(logFilePath, logMessage);
+}
+
 async function main() {
     try {
         // Crear el cliente OPC UA
@@ -26,10 +35,12 @@ async function main() {
         // Conectar al servidor OPC UA
         await client.connect(endpointUrl);
         console.log("Cliente conectado al servidor OPC UA");
+        writeLog("info", "Cliente conectado al servidor OPC UA");
 
         // Crear una sesión
         const session = await client.createSession();
         console.log("Sesión creada");
+        writeLog("info", "Sesión creada");
 
         // Leer las variables según los mapeos y enviar a Orion Context Broker
         setInterval(async () => {
@@ -59,11 +70,11 @@ async function main() {
                             'Fiware-ServicePath': fiwareServicePath
                         }
                     });
-                    console.log("La entidad existe, actualizando...");
+                    writeLog("info", "La entidad existe, actualizando...");
                 } catch (error) {
                     if (error.response && error.response.status === 404) {
                         // Si la entidad no existe, crearla
-                        console.log("La entidad no existe, creando...");
+                        writeLog("info", "La entidad no existe, creando...");
                         await axios.post(`${orionBaseUrl}/entities`, {
                             id: entityId,
                             type: "Device",
@@ -75,15 +86,12 @@ async function main() {
                                 'Fiware-ServicePath': fiwareServicePath
                             }
                         });
+                        writeLog("info", "Entidad creada");
                         return; // Salir de la función porque ya hemos hecho la creación
                     } else {
                         throw error;
                     }
                 }
-
-                // Log de los datos que se van a enviar
-                console.log("Enviando los siguientes datos a Orion Context Broker:");
-                console.log(JSON.stringify(attributes, null, 2));
 
                 // Configuración de los headers
                 const headers = {
@@ -93,20 +101,22 @@ async function main() {
                 };
 
                 // Enviar datos a Orion Context Broker
-                const response = await axios.post(orionUrl, attributes, { headers });
-                console.log("Datos enviados a Orion Context Broker");
-                console.log("Respuesta del broker:", response.data);
+                await axios.post(orionUrl, attributes, { headers });
+                writeLog("info", "Datos enviados a Orion Context Broker");
 
             } catch (err) {
                 console.log("Error al leer variables o enviar datos:", err.message);
+                writeLog("error", "Error al leer variables o enviar datos: " + err.message);
                 if (err.response) {
                     console.error("Detalles del error:", err.response.data);
+                    writeLog("error", "Detalles del error: " + JSON.stringify(err.response.data));
                 }
             }
         }, 1000); // Intervalo de lectura cada segundo
 
     } catch (err) {
         console.log("Error al conectar con el servidor OPC UA:", err.message);
+        writeLog("error", "Error al conectar con el servidor OPC UA: " + err.message);
     }
 }
 

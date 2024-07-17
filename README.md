@@ -30,7 +30,7 @@ Crea un archivo .env en el directorio raíz del proyecto basado en el archivo .e
 
 - Copiar código
 ```ruby
-    cp .env.example .env
+cp .env.example .env
 ```
 
 - Edita el archivo .env y proporciona los valores correctos para las URLs del servidor OPC UA y del OCB.
