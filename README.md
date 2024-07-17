@@ -51,7 +51,9 @@ node client-opcua-ocb.js
 Para ejecutar tu aplicación con Docker Compose, abre una terminal, navega al directorio que contiene tu archivo docker-compose.yml y ejecuta el siguiente comando:
 
 - Copiar código
+```ruby
 docker-compose up --build
+```
 
 - Tu archivo .env debe contener las variables de entorno necesarias:
 ```ruby
