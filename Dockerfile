@@ -6,13 +6,13 @@ WORKDIR /usr/src/app
 
 # Copia los archivos de la aplicación al contenedor
 COPY package*.json ./
-COPY . .
-
-# Instala las dependencias de la aplicación
 RUN npm install
 
 # Copia el resto de los archivos de la aplicación
 COPY . .
 
+# Listar archivos para verificar que todo se copió correctamente
+RUN ls -la /usr/src/app
+
 # Define el comando por defecto para ejecutar la aplicación
-CMD ["node", "index.js"]
+CMD ["node", "client-opcua-ocb.js"]
