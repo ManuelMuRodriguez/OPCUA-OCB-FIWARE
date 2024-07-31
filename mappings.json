@@ -42,5 +42,613 @@
     {
         "ocb_id": "AC_Voltage_L2",
         "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage L2.PresentValue"
+    },
+    {
+        "ocb_id": "AC_Voltage_L2-L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage L2-L3.PresentValue"
+    },
+    {
+        "ocb_id": "AC_Voltage_L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage L3.PresentValue"
+    },
+    {
+        "ocb_id": "AC_Voltage_L3-L1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage L3-L1.PresentValue"
+    },
+    {
+        "ocb_id": "AC_Voltage_L-L_MEDIA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage L-L MEDIA.PresentValue"
+    },
+    {
+        "ocb_id": "AC_Voltage_MEDIA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AC Voltage MEDIA.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S1_1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S1_1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S1_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S1_2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S1_3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S1_3.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S2_1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S2_1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S2_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S2_2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_AEROTERMO_S2_3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_AEROTERMO_S2_3.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_COLECTOR_IMPULSION_1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_COLECTOR_IMPULSION_1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_COLECTOR_IMPULSION_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_COLECTOR_IMPULSION_2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_COLECTOR_RETORNO_1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_COLECTOR_RETORNO_1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_COLECTOR_RETORNO_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_COLECTOR_RETORNO_2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_ENTRADA_BOMBACALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_ENTRADA_BOMBACALOR.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_ENTRADA_CALDERA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_ENTRADA_CALDERA.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_IMPULSION_AEROTERMOS_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_IMPULSION_AEROTERMOS_S1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_IMPULSION_AEROTERMOS_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_IMPULSION_AEROTERMOS_S2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_RETORNO_AEROTERMOS_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_RETORNO_AEROTERMOS_S1.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_RETORNO_AEROTERMOS_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_RETORNO_AEROTERMOS_S2.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_SALIDA_BOMBACALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_SALIDA_BOMBACALOR.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_TEMP_SALIDA_CALDERA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_TEMP_SALIDA_CALDERA.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_VALV3V_GENERACION",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_VALV3V_GENERACION.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_VALV3VPROP_S1_FB",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_VALV3VPROP_S1_FB.PresentValue"
+    },
+    {
+        "ocb_id": "ACTERMICO_VALV3VPROP_S2_FB",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_ACTERMICO_VALV3VPROP_S2_FB.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_BOMBA_BOMBACALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_BOMBA_BOMBACALOR.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_BOMBA_CALDERA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_BOMBA_CALDERA.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_BOMBA_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_BOMBA_S1.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_BOMBA_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_BOMBA_S2.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_VALV3VPROP_CALDERA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_VALV3VPROP_CALDERA.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_VALV3VPROP_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_VALV3VPROP_S1.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_ACTERMICO_VALV3VPROP_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_ACTERMICO_VALV3VPROP_S2.PresentValue"
+    },
+    {
+        "ocb_id": "AUX_CO2GENERAL_VALVPROP",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_AUX_CO2GENERAL_VALVPROP.PresentValue"
+    },
+    {
+        "ocb_id": "B01",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_B01.PresentValue"
+    },
+    {
+        "ocb_id": "B01_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_B01_2.PresentValue"
+    },
+    {
+        "ocb_id": "B02",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_B02.PresentValue"
+    },
+    {
+        "ocb_id": "B02_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_B02_2.PresentValue"
+    },
+    {
+        "ocb_id": "CO2_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_CO2_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "CO2GENERAL_CAUDAL",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_CO2GENERAL_CAUDAL.PresentValue"
+    },
+    {
+        "ocb_id": "CO2GENERAL_VALV_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_CO2GENERAL_VALV_S1.PresentValue"
+    },
+    {
+        "ocb_id": "CO2GENERAL_VALV_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_CO2GENERAL_VALV_S2.PresentValue"
+    },
+    {
+        "ocb_id": "CO2GENERAL_VALV3V_PURO",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_CO2GENERAL_VALV3V_PURO.PresentValue"
+    },
+    {
+        "ocb_id": "DESH",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_DESH.PresentValue"
+    },
+    {
+        "ocb_id": "DIRVIENTO_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_DIRVIENTO_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "Factor_de_potencia_L1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Factor de potencia L1.PresentValue"
+    },
+    {
+        "ocb_id": "Factor_de_potencia_L2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Factor de potencia L2.PresentValue"
+    },
+    {
+        "ocb_id": "Factor_de_potencia_L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Factor de potencia L3.PresentValue"
+    },
+    {
+        "ocb_id": "Factor_de_potencia_total",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Factor de potencia total.PresentValue"
+    },
+    {
+        "ocb_id": "Frecuencia_CA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Frecuencia CA.PresentValue"
+    },
+    {
+        "ocb_id": "Gfc08",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Gfc08.PresentValue"
+    },
+    {
+        "ocb_id": "Gfc08_2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Gfc08_2.PresentValue"
+    },
+    {
+        "ocb_id": "HR_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HR_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_BOMBA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_BOMBA.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_DEPOS_NIVEL_BAJO",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_DEPOS_NIVEL_BAJO.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_VALV_AGUA_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_VALV_AGUA_S1.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_VALV_AGUA_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_VALV_AGUA_S2.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_VALV_AIRE_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_VALV_AIRE_S1.PresentValue"
+    },
+    {
+        "ocb_id": "HUM_VALV_AIRE_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_HUM_VALV_AIRE_S2.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_CO2_INTERIOR_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_CO2_INTERIOR_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_CO2_INTERIOR_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_CO2_INTERIOR_S2.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_HR_INTERIOR_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_HR_INTERIOR_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_HR_INTERIOR_S2_1M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_HR_INTERIOR_S2_1M.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_HR_INTERIOR_S2_3M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_HR_INTERIOR_S2_3M.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_RADGLOBAL_INTERIOR_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_RADGLOBAL_INTERIOR_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_RADGLOBAL_INTERIOR_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_RADGLOBAL_INTERIOR_S2.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_RADPAR_INTERIOR_1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_RADPAR_INTERIOR_1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_RADPAR_INTERIOR_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_RADPAR_INTERIOR_S2.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_INTERIOR_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_INTERIOR_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_INTERIOR_S2_1M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_INTERIOR_S2_1M.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_INTERIOR_S2_3M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_INTERIOR_S2_3M.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_SUELO30_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_SUELO30_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_SUELO30_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_SUELO30_S2.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_SUELO5_S1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_SUELO5_S1.PresentValue"
+    },
+    {
+        "ocb_id": "INVER_TEMP_SUELO5_S2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_INVER_TEMP_SUELO5_S2.PresentValue"
+    },
+    {
+        "ocb_id": "Length_of_inverter_model_block",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Length of inverter model block.PresentValue"
+    },
+    {
+        "ocb_id": "LLUVIA_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_LLUVIA_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Aparente_L1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Aparente L1.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Aparente_L2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Aparente L2.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Aparente_L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Aparente L3.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Aparente_Total",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Aparente Total.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_L1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia L1.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_L2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia L2.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia L3.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Reactiva_L1",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Reactiva L1.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Reactiva_L2",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Reactiva L2.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Reactiva_L3",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Reactiva L3.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Reactiva_total",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Reactiva total.PresentValue"
+    },
+    {
+        "ocb_id": "Potencia_Total",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_Potencia Total.PresentValue"
+    },
+    {
+        "ocb_id": "RADGLOBAL_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_RADGLOBAL_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "RADPAR_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_RADPAR_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "TEMP_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_TEMP_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_1_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_1_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_1_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_1_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_1a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_1a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_1c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_1c.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_2_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_2_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_2_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_2_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_2a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_2a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_2c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_2c.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_3_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_3_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_3_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_3_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_3a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_3a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN1_3c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN1_3c.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_1_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_1_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_1_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_1_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_1a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_1a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_1c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_1c.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_2_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_2_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_2_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_2_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_2a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_2a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_2c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_2c.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_3_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_3_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_3_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_3_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_3a",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_3a.PresentValue"
+    },
+    {
+        "ocb_id": "UVCEN2_3c",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVCEN2_3c.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1N_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1N_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1N_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1N_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1Na",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1Na.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1Nc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1Nc.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1ON_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1ON_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1ON_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1ON_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1ONa",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1ONa.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1ONc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1ONc.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1OS_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1OS_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1OS_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1OS_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1OSa",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1OSa.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1OSc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1OSc.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1S_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1S_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1S_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1S_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1Sa",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1Sa.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT1Sc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT1Sc.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2E_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2E_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2E_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2E_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Ea",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Ea.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Ec",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Ec.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2N_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2N_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2N_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2N_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Na",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Na.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Nc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Nc.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2S_POS",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2S_POS.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2S_POS_VALOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2S_POS_VALOR.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Sa",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Sa.PresentValue"
+    },
+    {
+        "ocb_id": "UVLAT2Sc",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_UVLAT2Sc.PresentValue"
+    },
+    {
+        "ocb_id": "VELVIENTO_EXTERIOR_10M",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.OPC_VELVIENTO_EXTERIOR_10M.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOPRESION",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.PRESION.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOSELECTOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.SELECTOR.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOSOPLANTE",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.SOPLANTE.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOTEMP_CHIMENEA",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.TEMP_CHIMENEA.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOTEMP_INTERCAMBIADOR",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.TEMP_INTERCAMBIADOR.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOV3V",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.V3V.PresentValue"
+    },
+    {
+        "ocb_id": "SCADAASP_NUEVOVAL_PPNAL",
+        "opcua_id": "ns=2;s=SCADA.ASP_NUEVO.VAL PPNAL.PresentValue"
     }
 ]
