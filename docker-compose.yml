@@ -8,6 +8,7 @@ services:
       - ./logs:/usr/src/app/logs
     networks:
       - opcua_network
+    restart: always  # Esto asegura que el contenedor siempre se reinicie
 
 networks:
   opcua_network:

@@ -8,10 +8,6 @@ require('dotenv').config(); // Cargar variables de entorno desde el archivo .env
 const mappingsFilePath = path.join(__dirname, process.env.MAPPINGS_FILE_PATH);
 const mappings = JSON.parse(fs.readFileSync(mappingsFilePath, 'utf8'));
 
-// Leer el archivo transformtofiware.json usando la ruta del archivo desde .env
-const transformFilePath = path.join(__dirname, process.env.TRANSFORM_FILE_PATH);
-const transformData = JSON.parse(fs.readFileSync(transformFilePath, 'utf8'));
-
 // URL del servidor OPC UA y del Orion Context Broker desde el archivo .env
 const endpointUrl = process.env.OPCUA_ENDPOINT_URL;
 const orionBaseUrl = process.env.ORION_BASE_URL;
@@ -64,46 +60,6 @@ async function main() {
                             }
                         }
                     };
-
-                    // Añadir metadatos adicionales desde transformtofiware.json
-                    const sensorType = transformData.sensor_type.find(sensor => sensor.name === mapping.ocb_id);
-                    if (sensorType) {
-                        attributes[mapping.ocb_id].metadata = {
-                            ...attributes[mapping.ocb_id].metadata,
-                            type: {
-                                type: "Text",
-                                value: sensorType.type
-                            },
-                            place: {
-                                type: "Text",
-                                value: sensorType.place
-                            },
-                            system: {
-                                type: "Text",
-                                value: sensorType.system
-                            },
-                            img: {
-                                type: "Text",
-                                value: sensorType.img
-                            },
-                            name_fiware: {
-                                type: "Text",
-                                value: sensorType.name_fiware
-                            },
-                            name_comun: {
-                                type: "Text",
-                                value: sensorType.name_comun
-                            },
-                            medida: {
-                                type: "Text",
-                                value: sensorType.medida
-                            },
-                            manufacturer: {
-                                type: "Text",
-                                value: sensorType.manufacturer
-                            }
-                        };
-                    }
                 }
 
                 // Verificar si la entidad existe
@@ -156,7 +112,7 @@ async function main() {
                     writeLog("error", "Detalles del error: " + JSON.stringify(err.response.data));
                 }
             }
-        }, 5000); // Intervalo de lectura cada segundo
+        }, 30000); // Intervalo de lectura cada 30 segundos
 
     } catch (err) {
         console.log("Error al conectar con el servidor OPC UA:", err.message);
